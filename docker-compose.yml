@@ -1,0 +1,17 @@
+services:
+  api:
+    build: .
+    command: python backend/app.py
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./models:/app/models:ro
+  dashboard:
+    build: .
+    command: streamlit run frontend/streamlit_app.py --server.address=0.0.0.0 --server.port=8501
+    ports:
+      - "8501:8501"
+    environment:
+      IDS_API_URL: http://api:5000
+    depends_on:
+      - api
