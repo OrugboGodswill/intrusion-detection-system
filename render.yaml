@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: sentinel-ids
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    region: oregon
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: IDS_API_URL
+        value: http://127.0.0.1:5000
