@@ -1,10 +1,13 @@
 # Sentinel IDS: AI-Powered Network Intrusion Detection System
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Render-brightgreen.svg?style=for-the-badge&logo=render)](https://intrusion-detection-system-8kuj.onrender.com/)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/Flask-3.1.1-green.svg)](https://flask.palletsprojects.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.44.1-red.svg)](https://streamlit.io/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.6.1-orange.svg)](https://scikit-learn.org/)
 [![Docker](https://img.shields.io/badge/Docker-Supported-cyan.svg)](https://www.docker.com/)
+
+🔗 **Live Production Deployment**: [https://intrusion-detection-system-8kuj.onrender.com/](https://intrusion-detection-system-8kuj.onrender.com/)
 
 **Sentinel IDS** is an end-to-end Machine Learning and Cyber Security solution designed for automated batch network intrusion detection and explainable threat analysis. Powered by a pre-trained **Random Forest Pipeline** and **SHAP (SHapley Additive exPlanations)**, Sentinel IDS analyzes network traffic logs in CSV format, detects malicious behavior in real time, classifies specific cyber attack vectors, and provides security analysts with feature-level interpretability.
 
